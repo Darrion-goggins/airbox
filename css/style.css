@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+}
+.navbar {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: thin solid white;
+}
+.navbar img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 25px; left: 50px;
+}
+header li {
+    margin-right: 10px;
+}
+.navbar h1 {
+    position: absolute;
+    top: 0; left: 25%;
+}
+.navbar p {
+    position: absolute;
+    top: 5%; left: 25%;
+}
+.navbar ul {
+    list-style: none;
+    text-align: right;
+}
+.navbar li {
+    font-size: 24px;
+    display: inline;
+}
+.main1 {
+    text-align: center;
+    width: 50%;
+    margin-left: 250px;
+}
+.main1 h2 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.info {
+    font-size: 50px;
+}
+.main1 p {
+    font-size: 20px;
+}
+.float {
+    float: left;
+    width: 25%;
+}
+.clear {
+    display: table;
+    clear: both;
+    height: 0px;
+    width: 0px;
+    content: '';
+}
+.pricing img {
+    height: 200px;
+    width: 150px;
+    margin: 25%;
+}
+.block--minihosting {
+    border: thin solid white;
+}
+.paymentinterval {
+    color: orange;
+}
+.block--userhosting {
+    border: thin solid white;
+}
+.block--prohosting {
+    border: thin solid white;
+}
+.block--maxihosting {
+    border: thin solid white;
+}
+.pricing h2 {
+    font-size: 25px;
+    text-align: center;
+}
+.pricing p {
+    text-align: center;
+}
+.float--block--second h2 {
+    border-bottom: thin solid white;
+}
+.float--block--second {
+    background: lightgray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: thin solid white;
+}
+.float--block--second ul {
+    list-style: none;
+}
+.float--block--second h2 {
+    text-align: center;
+    border: thin solid white;
+    background: rgb(25, 25, 39);
+    color: white;
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.float--block--second p {
+    text-align: center;
+    font-size: 20px;
+    color: darkgray;
+    background: rgb(25, 25, 39);
+    padding: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.listbord {
+    background: white;
+    margin-right: 25px;
+    border-bottom: thin solid white;
+}
+.listdec {
+    background: darkgray;
+    margin-right: 25px;
+    border-bottom: thin solid white;
+}
+.main2 ul {
+    list-style: none;
+}
+.main2 h2 {
+    background: gray;
+    border: thin white solid;
+}
+.main2 p {
+    background: gray;
+    border: thin white solid;
+}
+.float--block2 h3 {
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.float--block2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+} 
+.float--block2 li {
+    text-align: center;
+} 
+.float--block2 li::before {
+    content: "• ";
+    color: orange;
+}
+.footer p {
+    color: white;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 15px;
+    background: gray;
+    font-size: 25px;
+    border-radius: 7%;
+}
+.button--top {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+.button--purchase {
+    background: darkorange;
+    margin-left: 20%;
+    color: white;
+}
+.button--try {
+    background: darkorange;
+    margin-left: 20%;
+    color: white;
+}
+.background--primary {
+    background: rgb(10, 10, 48);
+    color: white;
+}
+.background--secondary {
+    background: orangered;
+}
+.businesses ul {
+    text-align: center;
+    list-style: none;
+}
+.businesses li {
+    text-align: center;
+    display: inline;
+    font-size: 50px;
+    margin-right: 20px;
+    color:darkgray;
+    mix-blend-mode: color;
+}
+.businesses {
+    background: rgb(16, 16, 68);
+    padding: 10px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.copywrite {
+    color: darkgray;
+}
+.copywrite h3 {
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+}
+.copywrite p {
+    display: inline;
+}
+.copywrite img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 25px; left: 10px;
+}
+.copywrite ul {
+    list-style: none;
+    text-align: right;
+}
+.copywrite li {
+    display: inline;
+}
